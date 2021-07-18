@@ -1,0 +1,11 @@
+name = "allowed"
+type = "javascript"
+zone_id = "dc6a2c1ee8af1087e6c0b36a4aac6f18"
+account_id = "731fe0195b8d923e8b7403ede82c46e8"
+route = ""
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
